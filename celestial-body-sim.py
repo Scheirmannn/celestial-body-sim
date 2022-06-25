@@ -85,39 +85,41 @@ def main():
 
     p1 = Body()
     p1.name = 'P1'
+    p1.pencolor('green')
     p1.mass = 5.9742 * 10 ** 24
     p1.px = -1 * 149.6e9
     p1.vy = 29.783 * 1000
-    p1.pencolor('green')
     p1.ht()
 
     p2 = Body()
     p2.showturtle()
     p2.name = 'P2'
+    p2.pencolor('red')
     p2.mass = 4.8685 * 10 ** 24
     p2.px = .523 * 149.6e9
     p2.vy = -35.02 * 1000
-    p2.pencolor('red')
+    p2.vx = -24.06 * 1000
     p2.ht()
 
     p3 = Body()
     p3.showturtle()
+    p3.pencolor('blue')
     p3.name = 'P3'
     p3.mass = 4.3245 * 10 ** 24
     p3.px = -1.234 * -149.6e9
     p3.py = -.2 * -149.6e9
     p3.vy = 17.15 * 1000
-    p3.pencolor('blue')
     p3.ht()
 
     p4 = Body()
     p4.showturtle()
+    p4.pencolor('white')
     p4.name = 'P4'
     p4.mass = 4.3245 * 10 ** 26
     p4.px = -1.394 * 149.6e9
     p4.py = -.614 * 149.6e9
     p4.vy = 13.615 * 1000
-    p4.pencolor('white')
+    p4.vx = 0
     p4.ht()
 
     sun.dot(50)
